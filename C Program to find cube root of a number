@@ -1,0 +1,31 @@
+
+/*
+ *  Author: Techyrick.com
+ */
+
+#include<stdio.h> 
+//#include 
+
+void main() {
+
+
+//clrscr();
+
+int number;
+float cube_rt;
+ 
+ 
+   printf("\nC Program to find Cube root of a number : \n\n");
+ 
+   printf("Enter a number to find Cube root  : \n");
+   scanf("%d",&number);
+   
+    cube_rt = pow(number,0.33334);
+   
+   printf("Cube root of %d = %f",number,cube_rt);
+   
+
+ //    getch(); 
+
+}
+
